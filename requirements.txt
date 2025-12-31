@@ -5,6 +5,7 @@ langchain-community
 # Streamlit for web interface
 streamlit
 streamlit-chat
+streamlit-pdf-viewer>=0.0.15
 
 # Vector store
 chromadb
@@ -14,6 +15,7 @@ fastembed
 
 # PDF processing
 pypdf
+pdfplumber>=0.10.0
 
 # Standard library packages (included with Python)
 # os, time, tempfile - no installation needed
