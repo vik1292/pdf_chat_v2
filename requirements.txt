@@ -1,0 +1,19 @@
+# LangChain and related packages
+langchain
+langchain-community
+
+# Streamlit for web interface
+streamlit
+streamlit-chat
+
+# Vector store
+chromadb
+
+# Embeddings
+fastembed
+
+# PDF processing
+pypdf
+
+# Standard library packages (included with Python)
+# os, time, tempfile - no installation needed
