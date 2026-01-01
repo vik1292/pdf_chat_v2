@@ -213,7 +213,7 @@ Output ONLY the keywords separated by spaces, no explanations:"""
             search_type="similarity_score_threshold",
             search_kwargs={
                 "k": 5,  # Increased from 3 to 5 for better recall
-                "score_threshold": 0.3,  # Lowered from 0.5 to 0.3 for better recall
+                "score_threshold": 0.4,  # Increased from 0.3 to 0.4 for better relevance
             },
         )
 
