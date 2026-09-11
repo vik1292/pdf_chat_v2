@@ -1,21 +1,17 @@
-# LangChain and related packages
-langchain
-langchain-community
+# UI
+streamlit>=1.52
+streamlit-pdf-viewer>=0.0.30
 
-# Streamlit for web interface
-streamlit
-streamlit-chat
-streamlit-pdf-viewer>=0.0.15
+# LLM (Ollama via LangChain)
+langchain-ollama>=1.0
 
-# Vector store
-chromadb
+# Retrieval
+chromadb>=1.0
+fastembed>=0.7,<0.8
+rank-bm25>=0.2.2
+numpy
 
-# Embeddings
-fastembed
-
-# PDF processing
-pypdf
-pdfplumber>=0.10.0
-
-# Standard library packages (included with Python)
-# os, time, tempfile - no installation needed
+# PDF text + coordinates
+# pdfplumber 0.11.10 requires pillow>=12.2, but fastembed 0.7 requires pillow<12 on Python 3.13.
+pdfplumber==0.11.9
+pillow<12
